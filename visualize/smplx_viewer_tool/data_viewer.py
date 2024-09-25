@@ -50,9 +50,10 @@ class SMPLX_Viewer(Viewer):
         
         self.text_val = ''
 
-        self.clip_folder = './data/'
-        self.text_folder = './texts'
-
+        # self.clip_folder = './data/'
+        self.clip_folder = R'F:\zc_data\Inter-X_Dataset\motions'
+        # self.text_folder = './texts'
+        self.text_folder = R'F:\zc_data\Inter-X_Dataset\texts'
         self.label_npy_list = []
         self.get_label_file_list()
         self.total_tasks = len(self.label_npy_list)
